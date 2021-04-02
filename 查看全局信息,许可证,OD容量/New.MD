@@ -1,6 +1,7 @@
-# Office365 新手教程
+# 新手教程
 
 ## 创建新用户
+
 - 登录管理面板 [https://admin.microsoft.com/Adminportal/Home](https://admin.microsoft.com/Adminportal/Home)
 - 在 Microsoft 365 管理中心，转到"用户管理"，然后选择"添加用户".
 - 输入新用户的名字和姓氏. (显示名自动填入, 但你可对其进行更改.)
