@@ -55,25 +55,25 @@
 委派（个人 Microsoft 帐户）） | 不支持。
 应用程序 | User.ReadWrite.All、Directory.ReadWrite.All
 
-## 运行
 
 #### 1、关于配置文件
 
 请参考该文档 [Config文档](Config.md)
 
 #### 2、存在Java环境的情况下
-下载最新版本的`jar`包，然后在同目录新建config目录，下载 [application-dev.yml](src/main/resources/config/application-dev.yml)文件放到该目录。
 
+1. 下载 Microsoft365.jar，然后在同目录新建config目录，下载 [application-dev.yml](application-dev.yml)文件放到该目录
 按照格式修改配置文件
 
-执行 `java -jar microsoft-0.0.1-SNAPSHOT.jar --spring.profile.active=dev` 启动，端口：8099
+2. 执行 `java -jar Microsoft365.jar --spring.profile.active=dev` 启动，端口：8099
 
 ### 注意：此程序不建议部署到公网，请并修改config.js中的请求地址。
 
-
 ## 界面
 
-
+![首页](TK/首页.png)
+![用户管理](TK/用户管理.png)
+![订阅管理](TK/订阅管理.png)
 
 ## API接口
 
@@ -104,4 +104,4 @@
 
 请自行设置 .evn  {host} 和 {port}
 
-
+![接口](TK/接口.png)
