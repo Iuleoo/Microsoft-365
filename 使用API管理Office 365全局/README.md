@@ -4,8 +4,6 @@
 
 后端基于SpringBoot，使用 msal4j 和 microsoft-graph sdk 开发完成
 
-前端？**嗯，能力不足，瞎写的，不要在意代码**
-
 
 ## 系统功能
 
@@ -61,33 +59,16 @@
 
 #### 1、关于配置文件
 
-请参考该文档 [Config文档](https://github.com/6mb/Microsoft-365-Admin/blob/dev/Config.md)
+请参考该文档 [Config文档](Config.md)
 
 #### 2、存在Java环境的情况下
-下载最新版本的`jar`包，然后在同目录新建config目录，下载 [application-dev.yml](https://github.com/6mb/Microsoft-365-Admin/blob/master/src/main/resources/config/application-dev.yml)文件放到该目录。
+下载最新版本的`jar`包，然后在同目录新建config目录，下载 [application-dev.yml](src/main/resources/config/application-dev.yml)文件放到该目录。
 
 按照格式修改配置文件
 
 执行 `java -jar microsoft-0.0.1-SNAPSHOT.jar --spring.profile.active=dev` 启动，端口：8099
 
-#### 3、Docker 安装 （推荐）
-
-
-然后下载 [application-dev.yml](https://github.com/6mb/Microsoft-365-Admin/blob/master/src/main/resources/config/application-dev.yml)文件放到config目录。
-
-按照格式修改配置文件
-
-```shell script
-docker pull logr/microsoft:latest
-
-docker run -d --name=microsoft-admin \
-    -p 8099:8099 \
-    -v /home/microsoft/config:/config \
-    -v /home/microsoft/db:/root/.graph/db \
-    logr/microsoft:latest
-```
-
-### 注意：如果前端文件单独部署（~~不建议部署到公网，没有登陆功能~~），请并修改config.js中的请求地址。
+### 注意：此程序不建议部署到公网，请并修改config.js中的请求地址。
 
 
 ## 界面
@@ -96,7 +77,7 @@ docker run -d --name=microsoft-admin \
 
 ## API接口
 
-[接口文档](https://github.com/6mb/Microsoft-365-Admin/blob/master/Microsoft%20365%20Admin.md)
+[接口文档](Microsoft%20365%20Admin.md)
 
 - 登陆
 - Microsoft 365 首页
@@ -119,7 +100,7 @@ docker run -d --name=microsoft-admin \
     - 批量创建用户信息
 ## Postman 接口
 
- [点击下载](https://raw.githubusercontent.com/6mb/Microsoft-365-Admin/master/.github/Microsoft%20365%20Admin.postman_collection.json)
+ [点击下载](TK/Microsoft%20365%20Admin.postman_collection.json)
 
 请自行设置 .evn  {host} 和 {port}
 

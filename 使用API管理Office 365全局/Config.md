@@ -48,17 +48,17 @@ graph:
 ```yaml
 graph:
   configs:
-  - appName: mjj # 自定义该账号的类型（建议使用英文：默认域名前缀，必填）
-    appId: mjj # 应用程序(客户端) ID client（必填）
-    appTenant: mjj # 目录(租户) tenant（必填）
-    appSecret: mjj # secrets（必填）
-    admin: mjj # 全局管理员账号（可以为空）
-  - appName: mjj2 # 账号2配置，如果不需要请删除
-    appId: mjj2
-    appTenant: mjj2
-    appSecret: mjj2
-    domain: mjj2
-    admin: mjj2
+  - appName: E3 MSDN # 自定义该账号的类型（建议使用英文：默认域名前缀，必填）
+    appId: XXX # 应用程序(客户端) ID client（必填）
+    appTenant: XXX # 目录(租户) tenant（必填）
+    appSecret: XXX # secrets（必填）
+    admin: XXX # 全局管理员账号（可以为空）
+  - appName: E5 Dev # 账号2配置，如果不需要请删除
+    appId: LLL
+    appTenant: LLL
+    appSecret: LLL
+    domain: LLL
+    admin: LLL
 ```
 
 5、订阅配置，用于转换订阅显示的名称，可自行按照订阅添加
