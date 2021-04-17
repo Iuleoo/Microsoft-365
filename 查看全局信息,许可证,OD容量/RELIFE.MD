@@ -2,7 +2,7 @@
 
 ## 提示如下
 
-```
+```powershell
 Your account has been locked. Contact your support person to unlock it, then try again.
 ```
 

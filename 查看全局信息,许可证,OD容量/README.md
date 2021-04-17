@@ -1,7 +1,7 @@
 # Office365.ps1
 ## 查看 Office365 全局信息, 许可证信息等.(无需管理员权限)
 
-```
+```powershell
 Office365.ps1 -u <用户名> -p <密码> -l <许可证全名> -cn
         -u <用户名>
         // (可选) 用户登录的邮箱.
@@ -14,7 +14,7 @@ Office365.ps1 -u <用户名> -p <密码> -l <许可证全名> -cn
 ```
 
 ## 示例
-```
+```powershellpowershell
 # 国际版
 ./Office365.ps1 -u moeclub@github.onmicrosoft.com -p PASSWORD
 
@@ -25,7 +25,7 @@ Office365.ps1 -u <用户名> -p <密码> -l <许可证全名> -cn
 # Office365_OneDrive.ps1
 ## 设置 OneDrive 预设网盘容量和已存在用户的网盘容量.(需要全局管理员账户)
 
-```
+```powershell
 Office365_OneDrive.ps1 -u <用户名> -p <密码> -q <容量> -cn
         -u <用户名>
         // (可选) 用户登录的邮箱.
@@ -38,7 +38,7 @@ Office365_OneDrive.ps1 -u <用户名> -p <密码> -q <容量> -cn
 ```
 
 ## 示例
-```
+```powershell
 # 国际版
 ./Office365_OneDrive.ps1 -u moeclub@github.onmicrosoft.com -p PASSWORD -q 5
 
@@ -47,10 +47,10 @@ Office365_OneDrive.ps1 -u <用户名> -p <密码> -q <容量> -cn
 ```
 
 # 报错处理
-```
+```powershell
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Force
 ```
 
-# 新手教程 [点此查看](https://github.com/Iuleoo/Microsoft-365/blob/83388b4e4e412ed7019e4446c41f77a6911b6f26/%E6%9F%A5%E7%9C%8B%E5%85%A8%E5%B1%80%E4%BF%A1%E6%81%AF,%E8%AE%B8%E5%8F%AF%E8%AF%81,OD%E5%AE%B9%E9%87%8F/New.MD)
+# 新手教程 [点此查看](New.MD)
 
 # 许可证名称-产品名称-SKU [对照表](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
