@@ -1,6 +1,6 @@
 # Office 365 教育版自助注册常见命令
 
-### 步骤1：[连接到 Azure Active Directory PowerShell Graph 模块（注意：需要 以管理员身份运行 PowerShell）](连接到 Azure.md)
+### 步骤1：[连接到 Azure Active Directory PowerShell Graph 模块（注意：需要 以管理员身份运行 PowerShell）](连接到%20Azure.md)
 
 ### 步骤2：使用下面相关命令查询修改
 
